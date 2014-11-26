@@ -1,12 +1,11 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
+
 %define		pdir	Regexp
 %define		pnam	Common-net-CIDR
 %include	/usr/lib/rpm/macros.perl
-Summary:	Regexp::Common::net::CIDR -- provide patterns for CIDR blocks.
-#Summary(pl.UTF-8):	
+Summary:	Regexp::Common::net::CIDR -- provide patterns for CIDR blocks
 Name:		perl-Regexp-Common-net-CIDR
 Version:	0.02
 Release:	2
@@ -14,8 +13,7 @@ License:	GPL version 2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Regexp/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e109d32c7ed46956477cf94e54d1442a
-# generic URL, check or change before uncommenting
-#URL:		http://search.cpan.org/dist/Regexp-Common-net-CIDR/
+URL:		http://search.cpan.org/dist/Regexp-Common-net-CIDR/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
