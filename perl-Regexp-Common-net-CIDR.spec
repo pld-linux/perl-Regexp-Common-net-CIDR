@@ -7,12 +7,12 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Common::net::CIDR -- provide patterns for CIDR blocks
 Name:		perl-Regexp-Common-net-CIDR
-Version:	0.02
-Release:	2
+Version:	0.03
+Release:	1
 License:	GPL version 2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Regexp/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e109d32c7ed46956477cf94e54d1442a
+# Source0-md5:	94305bfe4b296da1cc999f8cb89ae504
 URL:		http://search.cpan.org/dist/Regexp-Common-net-CIDR/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
