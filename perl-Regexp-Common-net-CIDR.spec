@@ -4,7 +4,6 @@
 
 %define		pdir	Regexp
 %define		pnam	Common-net-CIDR
-%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Common::net::CIDR -- provide patterns for CIDR blocks
 Name:		perl-Regexp-Common-net-CIDR
 Version:	0.03
