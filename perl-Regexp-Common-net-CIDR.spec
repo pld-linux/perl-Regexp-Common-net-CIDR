@@ -7,7 +7,7 @@
 Summary:	Regexp::Common::net::CIDR -- provide patterns for CIDR blocks
 Name:		perl-Regexp-Common-net-CIDR
 Version:	0.03
-Release:	1
+Release:	2
 License:	GPL version 2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Regexp/%{pdir}-%{pnam}-%{version}.tar.gz
